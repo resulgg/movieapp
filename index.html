@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinevogue 👽</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" defer src="/js/main.js"></script>
+  </head>
+  <body>
+    <div class="background-overlay hider"></div>
+
+    <header class="header-wrapper container">
+        <h1 class="logo">Cinevogue 👽</h1>
+        <form class="search-wrapper">
+          <input type="text" class="search-input" placeholder="Search movie.." />
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </form>
+        <i class="fa-solid fa-bookmark saved-movies"></i>
+    </header>
+
+    <section class="hero-wrapper-main container">
+        <h1 class="hero-title">Explore</h1>
+        <p class="hero-desc">What are you gonna watch today?</p>
+        <div class="hero">
+            <!-- <div class="hero-details">
+                <h2 class="hero-in-title">Weather with you!</h2>
+                <p class="hero-in-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia voluptate maiores atque quis error blanditiis quo ex modi harum dolore.</p>
+            </div>
+            <img src="https://pbs.twimg.com/media/CZ-tyuwVAAAOaSs?format=jpg&name=large" alt="" class="hero-img"> -->
+        </div>
+    </section>
+
+    <section class="movie-discover container">
+        <h1 class="movie-section-header">Movies</h1>
+         <div class="movies-container"></div>
+    </section>
+    <section class="movie-discover-search container">
+      <i class="fa-solid fa-arrow-left left-arrow-search"></i>
+      <h1 class="movie-section-header-search"></h1>
+       <div class="movies-container-search"></div>
+  </section>
+    <section class="movie-discover-bookmark container">
+      <i class="fa-solid fa-arrow-left left-arrow-bookmark"></i>
+      <h1 class="movie-section-header-bookmark">Favorited Movies</h1>
+       <div class="movies-container-bookmark"></div>
+  </section>
+    <section class="detail-main hider">
+    </section>
+
+  </body>
+</html>
